@@ -9,6 +9,10 @@ url = require('url');
 app.use(express.json());
 
 app.use(bodyparser.json());
+
+app.get('/', (req, res) => {
+    res.send('Hello World');
+});
 // POST endpoint to save data
 app.post('/save-data', (req, res) => {
     console.log(req.body);
