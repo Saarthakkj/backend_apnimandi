@@ -1,15 +1,14 @@
 {
   "name": "backend_apnimandi",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Your project description",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "build": "echo 'No build step required' && exit 0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0"
   }
 }
